@@ -16,6 +16,9 @@
     "@react-sigma/layout-circlepack": "^3.3.0",
     "@react-sigma/layout-core": "^3.3.0",
     "@react-sigma/layout-forceatlas2": "^3.3.0",
+    "@types/react-virtualized-auto-sizer": "^1.0.1",
+    "@types/react-window": "^1.8.5",
+    "firebase": "^9.17.2",
     "graphology": "^0.25.1",
     "graphology-layout": "^0.6.1",
     "graphology-layout-forceatlas2": "^0.10.1",
@@ -23,6 +26,8 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-virtualized-auto-sizer": "^1.0.7",
+    "react-window": "^1.8.8",
     "sigma": "^2.4.0"
   },
   "devDependencies": {
