@@ -8,7 +8,8 @@ export type ClubListing = {
     status: string,
     categories: string[],
     totalMembers: number,
-    icon?: string
+    icon?: string,
+    commonMemberCount?: number
 }
 
 export function getTerpLinkUrl(club: ClubListing): string {
