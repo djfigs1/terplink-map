@@ -49,7 +49,7 @@ const TerpLinkMapData: React.FC<TerpLinkMapDataProps> = ({ clubs, edges, onClubH
             let edges = edgeMap.current.get(clubId);
             if (edges) {
                 edges.forEach((weight, otherClubId) => {
-                    graph.addEdge(clubId, otherClubId, { size: Math.log(weight), type: 'line' })
+                    graph.addEdge(clubId, otherClubId, { size: Math.log(weight), type: 'arrow' })
                 })
             }
         }
